@@ -1,0 +1,1 @@
+//WAP to check whether a character is uppercase or lowercase alpabhet#include <stdio.h>int main(){    char c;    printf("Enter an alphabet:\n");    scanf ("%c" , &c);        if (c >= 'a' && c <='z')    {        printf ("It is a lowercase alphabet");    }        else     {        printf ("It is an uppercase alphabet");    }    return 0;}
