@@ -8,7 +8,7 @@ int main()
   char hdn[100];
   printf("Enter any decimal number:");
   scanf("%ld",&decimaln);
-  q=dn;
+  q=decimaln;
   while(q!=0) 
   {
 		temp=q%16;
